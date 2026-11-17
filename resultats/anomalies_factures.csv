@@ -1,0 +1,22 @@
+﻿type;gravite;fichier;fichier_lie;numero;fournisseur;total_ttc;detail
+DATE_INCOHERENTE;Moyenne;scan_0118.pdf;;PSO00889;Propreté Services Ouest SARL;2724.34;Échéance antérieure à la date de facture
+DATE_INCOHERENTE;Moyenne;scan_0173.pdf;;FA-26-00648;Minoterie Kerdreux SAS;19481.63;Échéance antérieure à la date de facture
+DOUBLON_EXACT;Haute;scan_0147.pdf;scan_0006.pdf;00532/2026;Sucreries de l'Ouest SA;8157.37;Même numéro 00532/2026 que scan_0006.pdf
+DOUBLON_EXACT;Haute;scan_0181.pdf;scan_0120.pdf;T00229;Transports Penhoët SARL;3226.73;Même numéro T00229 que scan_0120.pdf
+DOUBLON_EXACT;Haute;scan_0212.pdf;scan_0100.pdf;F2026-0825;Laiterie du Trégor SARL;24296.12;Même numéro F2026-0825 que scan_0100.pdf
+DOUBLON_EXACT;Haute;scan_0243.pdf;scan_0176.pdf;CD000591;Cacaoteries Duval SAS;15851.16;Même numéro CD000591 que scan_0176.pdf
+DOUBLON_RENUMEROTE;Haute;scan_0106.pdf;scan_0071.pdf;LC-0312-B;Cabinet Lemaire Conseil SARL;2220.00;Mêmes fournisseur, date et montant que scan_0071.pdf (LC-0312 / LC-0312-B)
+DOUBLON_RENUMEROTE;Haute;scan_0216.pdf;scan_0191.pdf;LC-0310;Cabinet Lemaire Conseil SARL;2220.00;Mêmes fournisseur, date et montant que scan_0191.pdf (LC-0310-B / LC-0310)
+ERREUR_TOTAL;Haute;scan_0046.pdf;;PSO00884;Propreté Services Ouest SARL;2631.71;HT + TVA = 2594.62 mais TTC imprimé 2631.71
+ERREUR_TOTAL;Haute;scan_0091.pdf;;FC00553;Cartonnages Le Gall SAS;3110.59;HT + TVA = 3074.40 mais TTC imprimé 3110.59
+ERREUR_TOTAL;Haute;scan_0117.pdf;;00518/2026;Sucreries de l'Ouest SA;4243.63;HT + TVA = 4357.15 mais TTC imprimé 4243.63
+FACTURE_HORS_EXERCICE;Moyenne;scan_0053.pdf;;CD000061;Cacaoteries Duval SAS;7661.30;Date 2025-12-19 hors de la période 2026-01-01 à 2026-10-31
+FACTURE_HORS_EXERCICE;Moyenne;scan_0075.pdf;;FA-26-00073;Minoterie Kerdreux SAS;13668.37;Date 2025-12-16 hors de la période 2026-01-01 à 2026-10-31
+IBAN_MODIFIE;Haute;scan_0050.pdf;;T00210;Transports Penhoët SARL;2801.47;IBAN de la facture différent du référentiel (287763 attendu, 053061 reçu)
+IBAN_MODIFIE;Haute;scan_0132.pdf;;2026-158;Ovoproduits Bretons SARL;5801.44;IBAN de la facture différent du référentiel (312880 attendu, 742223 reçu)
+SIREN_INVALIDE;Moyenne;scan_0087.pdf;;CD000572;Cacaoteries Duval SAS;7845.09;SIREN 431602650 : clé de Luhn incorrecte (référentiel : 431602655)
+SIREN_INVALIDE;Moyenne;scan_0232.pdf;;PSO00881;Propreté Services Ouest SARL;2621.96;SIREN 876343717 : clé de Luhn incorrecte (référentiel : 876343716)
+TAUX_TVA_ANORMAL;Haute;scan_0082.pdf;;FC00549;Cartonnages Le Gall SAS;3338.61;Taux 10 % au lieu de 20 % habituel
+TAUX_TVA_ANORMAL;Haute;scan_0116.pdf;;CD000595;Cacaoteries Duval SAS;7709.04;Taux 20 % au lieu de 5.5 % habituel
+TAUX_TVA_ANORMAL;Haute;scan_0159.pdf;;00536/2026;Sucreries de l'Ouest SA;12765.48;Taux 20 % au lieu de 5.5 % habituel
+TVA_INTRA_INCOHERENT;Moyenne;scan_0083.pdf;;T00193;Transports Penhoët SARL;5260.25;N° TVA FR37866690738 : clé attendue 30

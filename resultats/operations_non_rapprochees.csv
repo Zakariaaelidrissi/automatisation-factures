@@ -1,0 +1,6 @@
+﻿reference_banque;date_operation;libelle;montant;fournisseur;statut
+OP260317-0066;2026-03-17;VIR SEPA PROPRETE SERVICES OUEST SA;-3513.63;Propreté Services Ouest SARL;Paiement sans facture
+OP260717-0207;2026-07-17;VIR SEPA TRANSPORTS PENHOET SARL;-4430.48;Transports Penhoët SARL;Paiement sans facture
+OP260720-0212;2026-07-20;VIR SEPA MAINTENANCE INDUSTRIELLE K;-4950.04;Maintenance Industrielle Kervella SAS;Paiement sans facture
+OP260729-0225;2026-07-29;VIR SEPA CACAOTERIES DUVAL SAS CD000591;-15851.16;Cacaoteries Duval SAS;Paiement en double
+OP260817-0251;2026-08-17;VIR SEPA SUCRERIES DE L'OUEST SA 00532/2026;-8157.37;Sucreries de l'Ouest SA;Paiement en double

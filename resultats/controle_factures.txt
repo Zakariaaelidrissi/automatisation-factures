@@ -1,0 +1,30 @@
+Factures contrôlées : 268
+Anomalies détectées : 21 sur 21 factures
+
+Contrôle                  Gravité    Détectées
+DATE_INCOHERENTE          Moyenne            2
+DOUBLON_EXACT             Haute              4
+DOUBLON_RENUMEROTE        Haute              2
+ERREUR_TOTAL              Haute              3
+FACTURE_HORS_EXERCICE     Moyenne            2
+IBAN_MODIFIE              Haute              2
+SIREN_INVALIDE            Moyenne            2
+TAUX_TVA_ANORMAL          Haute              3
+TVA_INTRA_INCOHERENT      Moyenne            1
+
+Montant TTC des doublons détectés : 55 971.38 €
+
+Contrôle contre le corrigé caché (évaluation uniquement ; les anomalies de paiement sont traitées à l'étape suivante)
+Type                       Injectées  Trouvées  Fausses alertes
+DATE_INCOHERENTE                   2         2                0
+DOUBLON_EXACT                      4         4                0
+DOUBLON_RENUMEROTE                 2         2                0
+ERREUR_CALCUL_TVA                  0         0                0
+ERREUR_TOTAL                       3         3                0
+FACTURE_HORS_EXERCICE              2         2                0
+IBAN_INVALIDE                      0         0                0
+IBAN_MODIFIE                       2         2                0
+SIREN_INVALIDE                     2         2                0
+TAUX_TVA_ANORMAL                   3         3                0
+TVA_INTRA_INCOHERENT               1         1                0
+Total                             21        21                0

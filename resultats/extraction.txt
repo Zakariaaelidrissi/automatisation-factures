@@ -1,0 +1,20 @@
+Fichiers PDF lus : 268
+Extraits : 268 ; illisibles : 0 
+Mises en page : A = 112, B = 63, C = 93
+Champs non trouvés : aucun
+
+Contrôle de l'extraction contre le fichier de vérité (évaluation uniquement)
+  fournisseur    268 / 268   100.0 %
+  siren          268 / 268   100.0 %
+  numero         268 / 268   100.0 %
+  date_facture   268 / 268   100.0 %
+  echeance       268 / 268   100.0 %
+  total_ht       268 / 268   100.0 %
+  taux_tva       268 / 268   100.0 %
+  montant_tva    268 / 268   100.0 %
+  total_ttc      268 / 268   100.0 %
+  iban           268 / 268   100.0 %
+  Mise en page A : 112 / 112 factures lues sans aucune erreur
+  Mise en page B : 63 / 63 factures lues sans aucune erreur
+  Mise en page C : 93 / 93 factures lues sans aucune erreur
+  Factures lues sans aucune erreur : 268 / 268

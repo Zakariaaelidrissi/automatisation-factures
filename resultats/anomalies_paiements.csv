@@ -1,0 +1,18 @@
+﻿type;gravite;fichier;numero;fournisseur;reference_banque;montant;detail
+ECART_PAIEMENT;Haute;scan_0029.pdf;PA/0730;Plastiques Armor SARL;OP260723-0218;3302.21;Payé 3302.21 € pour 3369.60 € dus (-2.0 %)
+ECART_PAIEMENT;Haute;scan_0233.pdf;FC00545;Cartonnages Le Gall SAS;OP260729-0227;3849.60;Payé 3849.60 € pour 4619.52 € dus (-16.7 %)
+ECART_PAIEMENT;Haute;scan_0241.pdf;T00207;Transports Penhoët SARL;OP260422-0109;2130.89;Payé 2130.89 € pour 2138.09 € dus (-0.3 %)
+NON_PAYEE_ECHUE;Haute;scan_0019.pdf;F2026-0837;Laiterie du Trégor SARL;;9376.84;Échéance du 2026-06-03 dépassée de 149 jours, aucun paiement trouvé
+NON_PAYEE_ECHUE;Haute;scan_0064.pdf;T00184;Transports Penhoët SARL;;1597.04;Échéance du 2026-02-06 dépassée de 266 jours, aucun paiement trouvé
+NON_PAYEE_ECHUE;Haute;scan_0085.pdf;FA-26-00639;Minoterie Kerdreux SAS;;5848.92;Échéance du 2026-02-25 dépassée de 247 jours, aucun paiement trouvé
+NON_PAYEE_ECHUE;Haute;scan_0124.pdf;2026-136;Ovoproduits Bretons SARL;;4760.79;Échéance du 2026-02-01 dépassée de 271 jours, aucun paiement trouvé
+NON_PAYEE_ECHUE;Haute;scan_0209.pdf;MIK-0893;Maintenance Industrielle Kervella SAS;;1413.54;Échéance du 2026-05-06 dépassée de 177 jours, aucun paiement trouvé
+NON_PAYEE_ECHUE;Haute;scan_0256.pdf;T00220;Transports Penhoët SARL;;2681.78;Échéance du 2026-05-20 dépassée de 163 jours, aucun paiement trouvé
+PAIEMENT_ANTERIEUR_FACTURE;Moyenne;scan_0118.pdf;PSO00889;Propreté Services Ouest SARL;OP260917-0286;2724.34;Paiement du 2026-09-17 antérieur à la date de facture 2026-09-23
+PAIEMENT_EN_DOUBLE;Haute;;;Cacaoteries Duval SAS;OP260729-0225;15851.16;Même montant déjà réglé le 2026-07-20 (OP260720-0209)
+PAIEMENT_EN_DOUBLE;Haute;;;Sucreries de l'Ouest SA;OP260817-0251;8157.37;Même montant déjà réglé le 2026-08-03 (OP260803-0232)
+PAIEMENT_IBAN_HORS_REFERENTIEL;Haute;scan_0050.pdf;T00210;Transports Penhoët SARL;OP260430-0123;2801.47;Paiement viré sur ...053061 au lieu de l'IBAN du référentiel ...287763
+PAIEMENT_IBAN_HORS_REFERENTIEL;Haute;scan_0132.pdf;2026-158;Ovoproduits Bretons SARL;OP260817-0252;5801.44;Paiement viré sur ...742223 au lieu de l'IBAN du référentiel ...312880
+PAIEMENT_SANS_FACTURE;Haute;;;Propreté Services Ouest SARL;OP260317-0066;3513.63;Aucune facture correspondante dans le dossier
+PAIEMENT_SANS_FACTURE;Haute;;;Transports Penhoët SARL;OP260717-0207;4430.48;Aucune facture correspondante dans le dossier
+PAIEMENT_SANS_FACTURE;Haute;;;Maintenance Industrielle Kervella SAS;OP260720-0212;4950.04;Aucune facture correspondante dans le dossier

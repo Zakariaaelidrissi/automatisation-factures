@@ -1,0 +1,36 @@
+﻿type;fichier;numero;fournisseur;reference_banque;detail
+DATE_INCOHERENTE;scan_0118.pdf;PSO00889;Propreté Services Ouest SARL;;Date de facture postérieure à la date de paiement
+DATE_INCOHERENTE;scan_0173.pdf;FA-26-00648;Minoterie Kerdreux SAS;;Échéance antérieure à la date de facture
+DOUBLON_EXACT;scan_0120.pdf;T00229;Transports Penhoët SARL;;Même facture T00229 reçue une seconde fois
+DOUBLON_EXACT;scan_0147.pdf;00532/2026;Sucreries de l'Ouest SA;;Même facture 00532/2026 reçue une seconde fois
+DOUBLON_EXACT;scan_0212.pdf;F2026-0825;Laiterie du Trégor SARL;;Même facture F2026-0825 reçue une seconde fois
+DOUBLON_EXACT;scan_0243.pdf;CD000591;Cacaoteries Duval SAS;;Même facture CD000591 reçue une seconde fois
+DOUBLON_RENUMEROTE;scan_0106.pdf;LC-0312-B;Cabinet Lemaire Conseil SARL;;Facture LC-0312 ré-émise sous le numéro LC-0312-B, mêmes date et montants
+DOUBLON_RENUMEROTE;scan_0191.pdf;LC-0310-B;Cabinet Lemaire Conseil SARL;;Facture LC-0310 ré-émise sous le numéro LC-0310-B, mêmes date et montants
+ECART_PAIEMENT;scan_0029.pdf;PA/0730;Plastiques Armor SARL;;Paiement avec un escompte de 2 % non prévu (3302.21 EUR payés pour 3369.60 EUR)
+ECART_PAIEMENT;scan_0233.pdf;FC00545;Cartonnages Le Gall SAS;;Paiement du montant HT au lieu du TTC (3849.60 EUR payés pour 4619.52 EUR)
+ECART_PAIEMENT;scan_0241.pdf;T00207;Transports Penhoët SARL;;Montant payé avec deux chiffres inversés (2130.89 EUR payés pour 2138.09 EUR)
+ERREUR_TOTAL;scan_0046.pdf;PSO00884;Propreté Services Ouest SARL;;TTC imprimé 2631.71 au lieu de 2594.62
+ERREUR_TOTAL;scan_0091.pdf;FC00553;Cartonnages Le Gall SAS;;TTC imprimé 3110.59 au lieu de 3074.40
+ERREUR_TOTAL;scan_0117.pdf;00518/2026;Sucreries de l'Ouest SA;;TTC imprimé 4243.63 au lieu de 4357.15
+FACTURE_HORS_EXERCICE;scan_0053.pdf;CD000061;Cacaoteries Duval SAS;;Facture datée du 2025-12-19, hors de la période 2026
+FACTURE_HORS_EXERCICE;scan_0075.pdf;FA-26-00073;Minoterie Kerdreux SAS;;Facture datée du 2025-12-16, hors de la période 2026
+IBAN_MODIFIE;scan_0050.pdf;T00210;Transports Penhoët SARL;;IBAN de la facture différent du RIB habituel du fournisseur, paiement effectué sur ce nouvel IBAN
+IBAN_MODIFIE;scan_0132.pdf;2026-158;Ovoproduits Bretons SARL;;IBAN de la facture différent du RIB habituel du fournisseur, paiement effectué sur ce nouvel IBAN
+NON_PAYEE_ECHUE;scan_0019.pdf;F2026-0837;Laiterie du Trégor SARL;;Échéance du 2026-06-03 dépassée, aucun paiement
+NON_PAYEE_ECHUE;scan_0064.pdf;T00184;Transports Penhoët SARL;;Échéance du 2026-02-06 dépassée, aucun paiement
+NON_PAYEE_ECHUE;scan_0085.pdf;FA-26-00639;Minoterie Kerdreux SAS;;Échéance du 2026-02-25 dépassée, aucun paiement
+NON_PAYEE_ECHUE;scan_0124.pdf;2026-136;Ovoproduits Bretons SARL;;Échéance du 2026-02-01 dépassée, aucun paiement
+NON_PAYEE_ECHUE;scan_0209.pdf;MIK-0893;Maintenance Industrielle Kervella SAS;;Échéance du 2026-05-06 dépassée, aucun paiement
+NON_PAYEE_ECHUE;scan_0256.pdf;T00220;Transports Penhoët SARL;;Échéance du 2026-05-20 dépassée, aucun paiement
+PAIEMENT_EN_DOUBLE;scan_0006.pdf;00532/2026;Sucreries de l'Ouest SA;OP260817-0251;Facture 00532/2026 payée deux fois (8157.37 EUR)
+PAIEMENT_EN_DOUBLE;scan_0176.pdf;CD000591;Cacaoteries Duval SAS;OP260729-0225;Facture CD000591 payée deux fois (15851.16 EUR)
+PAIEMENT_SANS_FACTURE;;;;OP260317-0066;Paiement de 3513.63 EUR à Propreté Services Ouest SARL sans facture correspondante
+PAIEMENT_SANS_FACTURE;;;;OP260717-0207;Paiement de 4430.48 EUR à Transports Penhoët SARL sans facture correspondante
+PAIEMENT_SANS_FACTURE;;;;OP260720-0212;Paiement de 4950.04 EUR à Maintenance Industrielle Kervella SAS sans facture correspondante
+SIREN_INVALIDE;scan_0087.pdf;CD000572;Cacaoteries Duval SAS;;SIREN imprimé 431602650 au lieu de 431602655
+SIREN_INVALIDE;scan_0232.pdf;PSO00881;Propreté Services Ouest SARL;;SIREN imprimé 876343717 au lieu de 876343716
+TAUX_TVA_ANORMAL;scan_0082.pdf;FC00549;Cartonnages Le Gall SAS;;Taux de 10 % appliqué au lieu de 20 %
+TAUX_TVA_ANORMAL;scan_0116.pdf;CD000595;Cacaoteries Duval SAS;;Taux de 20 % appliqué au lieu de 5.5 %
+TAUX_TVA_ANORMAL;scan_0159.pdf;00536/2026;Sucreries de l'Ouest SA;;Taux de 20 % appliqué au lieu de 5.5 %
+TVA_INTRA_INCOHERENT;scan_0083.pdf;T00193;Transports Penhoët SARL;;Clé du numéro de TVA intracommunautaire erronée

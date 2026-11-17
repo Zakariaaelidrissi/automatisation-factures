@@ -1,0 +1,21 @@
+Factures lues : 268 pour 2 020 291.34 € TTC
+Factures comptabilisées : 252 ; bloquées : 16
+Écritures : 756 lignes au journal d'achats, 462 lignes au journal de banque
+Équilibre : débit achats 1 900 588.32 / crédit 1 900 588.32 ; débit banque 1 781 812.27 / crédit 1 781 812.27
+Anomalies : 35 (haute : 28, moyenne : 7)
+  DOUBLON_EXACT                       4     51 531.38 €
+  DOUBLON_RENUMEROTE                  2      4 440.00 €
+  ECART_PAIEMENT                      3      9 282.70 €
+  ERREUR_TOTAL                        3      9 985.93 €
+  NON_PAYEE_ECHUE                     6     25 678.91 €
+  PAIEMENT_EN_DOUBLE                  2     24 008.53 €
+  PAIEMENT_IBAN_HORS_REFERENTIEL      2      8 602.91 €
+  PAIEMENT_SANS_FACTURE               3     12 894.15 €
+  TAUX_TVA_ANORMAL                    3     23 813.13 €
+  DATE_INCOHERENTE                    1     19 481.63 €
+  FACTURE_HORS_EXERCICE               2     21 329.67 €
+  PAIEMENT_ANTERIEUR_FACTURE          1      2 724.34 €
+  SIREN_INVALIDE                      2     10 467.05 €
+  TVA_INTRA_INCOHERENT                1      5 260.25 €
+
+Contrôle contre le corrigé caché : 35 anomalies retrouvées sur 35 injectées ; 0 fausse(s) alerte(s)
